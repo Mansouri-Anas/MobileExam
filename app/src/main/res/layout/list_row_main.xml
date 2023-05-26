@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="@color/yellow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFE3E3"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/ivContactPhoto"-->
+    <!--            android:layout_width="64dp"-->
+    <!--            android:layout_height="64dp"-->
+    <!--            android:src="@drawable/ic_person" />-->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pays"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/capital_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capital"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nbr_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre d'habitants"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/bt_edit"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:contentDescription="Edit"
+            android:src="@drawable/editblue" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/bt_delete"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:contentDescription="Delete"
+            android:src="@drawable/deleteblue" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="161dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="16dp">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/text_view"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold">-->
+
+
+<!--        </TextView>-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/bt_edit"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/ic_edit"></ImageView>-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/bt_delete"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/ic_delete"></ImageView>-->
+
+
+<!--    </LinearLayout>-->
+
+</androidx.cardview.widget.CardView>
